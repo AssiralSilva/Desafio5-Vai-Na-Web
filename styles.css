@@ -6,3 +6,31 @@
     box-sizing: border-box;
     font-family: 'Roboto Serif', serif;
 }
+
+body 
+{
+    background-color: blue;
+}
+
+header 
+{
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem 3rem .5rem 2rem;
+}
+
+header div
+{
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.imagem_de_uma_patinha
+{
+    width: 16%;
+    height: 60%;
+}
