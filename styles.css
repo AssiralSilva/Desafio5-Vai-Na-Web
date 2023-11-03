@@ -7,17 +7,14 @@
     font-family: 'Roboto Serif', serif;
 }
 
-body 
-{
-    background-color: blue;
-}
-
 header 
 {
     background-color: #252525;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: .5rem 3rem .5rem 2rem;
+    height: 10vh;
 }
 
 header div
@@ -29,8 +26,180 @@ header div
     color: #ffffff;
 }
 
-.imagem_de_uma_patinha
+h1, .logo-no-footer 
 {
-    width: 16%;
+    font-size: 3.8vw;
+}
+
+header img
+{
+    width: 2.5em;
+    height: 5vh;
+}
+
+.imagem_de_uma_patinha_com_logo
+{
+    width: 24%;
     height: 60%;
+}
+
+
+
+
+
+.caixa-principal
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: chocolate;
+}
+
+.imagem_principal_de_cao_com_cone_de_aniversariante_na_cabeça, .cao_com_fantasia_de_urso, .imagem_caozinho_feinho_coitado  
+{
+    width: 100%;
+}
+
+.caixa-principal div 
+{
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+}
+
+.texto_de_boas_vindas_subtitulo_principal
+{
+    font-size: 6vw;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.imagem_de_uma_patinha_na_caixa_principal 
+{
+    margin-top: 1.3em;
+    width: 30%;
+    height: 60%;
+}
+
+
+
+
+.caixa-sobre-banho-e-tosa 
+{
+    margin-top: 20%;
+    margin-right: 5%;
+    padding-left: 10%;
+}
+
+h5 
+{
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.caixa-sobre-banho-e-tosa p, .caixa-mordomia-saudavel p 
+{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 3.5vw;
+    font-weight: lighter;
+}
+
+button 
+{
+    width: 38%;
+    height: 6vh;
+    border-radius: 78px;
+    background-color: #3A342F;
+    color: #ffffff;
+    border: none;
+    box-shadow: 1px 1px grey;
+    cursor: pointer;
+}
+
+.imagem_caozinho_feinho_coitado
+{
+    margin-top: -2%;
+}
+
+.caixa-do-topico-mordomia-saudavel
+{
+    position: relative;
+}
+
+.caixa-mordomia-saudavel
+{
+    position: absolute;
+    top: 15%;
+    margin-right: 5%;
+    padding-left: 10%;
+}
+
+.caixa-mordomia-saudavel button
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+
+.caixa-com-apoiadores-do-pet{
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:#fd6a9a;
+}
+
+.caixa-com-apoiadores-do-pet div
+{
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.apoiador 
+{
+    font-size: 5vw;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+footer
+{
+    background-color: #eb4a7b;
+    height: 80vh;
+}
+
+.logo-na-div-do-footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.logo-na-div-do-footer img {
+    width: 11%;
+    height: 8vh;
+    margin-right: 2em;
+}
+
+
+.caixa-com-as-redes-sociais 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
 }
