@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Roboto Serif', serif;
 }
-
+/*-- DESKTOP --*/
 header 
 {
     background-color: #252525;
@@ -28,19 +28,19 @@ header div
 
 h1
 {
-    font-size: 3.8vw;
+    font-size: 3vw;
     color: #ffffff;
 }
 
 header img
 {
-    width: 2.5em;
+    width: 3%;
     height: 5vh;
 }
 
 .imagem_de_uma_patinha_com_logo
 {
-    width: 24%;
+    width: 13%;
     height: 60%;
 }
 
@@ -53,7 +53,6 @@ header img
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: chocolate;
 }
 
 .imagem_principal_de_cao_com_cone_de_aniversariante_na_cabeça, .cao_com_fantasia_de_urso, .imagem_caozinho_feinho_coitado  
@@ -90,6 +89,7 @@ header img
 
 
 
+
 .caixa-sobre-banho-e-tosa 
 {
     margin-top: 20%;
@@ -107,25 +107,28 @@ h5
 {
     margin-top: 2em;
     margin-bottom: 2em;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     font-weight: lighter;
 }
 
 button 
 {
-    width: 38%;
+    width: 25%;
     height: 6vh;
     border-radius: 78px;
     background-color: #3A342F;
     color: #ffffff;
+    font-size: 1.5vw;
+    text-align: center;
     border: none;
-    box-shadow: 1px 1px grey;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: .2em;
     cursor: pointer;
 }
 
 .imagem_caozinho_feinho_coitado
 {
-    margin-top: -2%;
+    margin-top: -3%;
 }
 
 .caixa-do-topico-mordomia-saudavel
@@ -137,7 +140,7 @@ button
 {
     position: absolute;
     top: 15%;
-    margin-right: 5%;
+    margin-right: 7%;
     padding-left: 10%;
 }
 
@@ -185,10 +188,11 @@ h3 {
 
 
 
+
+
 footer
 {
     background-color: #eb4a7b;
-    height: 100vh;
 }
 
 .logo-na-div-do-footer
@@ -200,14 +204,14 @@ footer
 }
 
 .logo-na-div-do-footer img {
-    width: 11%;
-    height: 8vh;
+    height: 10vh;
     margin-right: 2em;
+    width: 6%;
 }
 
 .logo-no-footer 
 {
-    font-size: 6vw;
+    font-size: 4vw;
     color: #ffffff;
     font-weight: 800;
 }
@@ -224,14 +228,14 @@ footer
 
 .instagram-icon, .whatsapp-icon 
 {
-    width: 8vw;
+    width: 3vw;
 }
 
 .youtube-icon 
 {
     margin-left: 2em;
     margin-right: 2em;
-    width: 11vw;
+    width: 4vw;
 }
 
 .informacoes-importantes
@@ -240,7 +244,6 @@ footer
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 62vh;
     justify-content: space-around;
 }
 
@@ -250,17 +253,170 @@ footer
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    margin-top: 5vw;
-    margin-bottom: 2%;
     color: #ffffff;
+    margin-bottom: 2em;
 }
 
 .titulos-de-informacoes-importantes-contidos-no-footer
 {
-    font-size: 5vw;
+    font-size: 2vw;
+    margin-bottom: .2em;
 }
 
 .temas-das-informacoes-importantes-em-si-no-footer
 {
-    font-size: 4vw;
+    font-size: 1vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --- MOBILE --*/
+@media screen and (max-width: 768px) 
+{
+    h1
+    {
+        font-size: 3.8vw;
+    }
+
+    header img
+    {
+        width: 5%;
+    }
+
+    .imagem_de_uma_patinha_com_logo
+    {
+        width: 20%;
+    }
+
+
+
+
+
+    .caixa-sobre-banho-e-tosa p, .caixa-mordomia-saudavel p 
+    {
+        font-size: 3.5vw;
+    }
+
+    button 
+    {
+        width: 38%;
+        font-size: 3vw;
+        box-shadow: 1px 1px grey;
+    }
+
+    .caixa-mordomia-saudavel
+    {
+        margin-right: 5%;
+    }
+
+
+
+
+    
+    .logo-na-div-do-footer img {
+        height: 8vh;
+        width: 7%;
+    }
+
+    .logo-no-footer 
+    {
+        font-size: 6vw;
+    }
+
+
+    .instagram-icon, .whatsapp-icon 
+    {
+        width: 8vw;
+    }
+
+    .youtube-icon 
+    {
+        width: 11vw;
+    }
+
+    .titulos-de-informacoes-importantes-contidos-no-footer
+    {
+        font-size: 5vw;
+    }
+
+    .temas-das-informacoes-importantes-em-si-no-footer
+    {
+        font-size: 4vw;
+    }
+}
+
+
+@media screen and (max-width:600px)
+{
+    .logo-na-div-do-footer img {
+        width: 9%;
+    }
+}
+
+
+@media screen and (max-width:500px)
+{
+    .logo-na-div-do-footer img {
+        width: 10%;
+    } 
+}
+
+
+@media screen and (max-width:400px)
+{
+    .logo-na-div-do-footer img {
+        width: 12%;
+    }
+
+    .instagram-icon, .whatsapp-icon 
+    {
+        width: 6vw;
+    }
+
+    .youtube-icon 
+    {
+        width: 8vw;
+    }
+}
+
+
+@media screen and (max-width:300px)
+{
+    .logo-na-div-do-footer img {
+        width: 20%;
+    }
+}
+
+
+
+@media screen and (max-width: 200px)
+{
+    .logo-na-div-do-footer img {
+        height: 5vh;
+        margin-right: 1em;
+        width: 17%;
+    }
+
+    button 
+    {
+        height: 3vh;
+    }
+
+    .informacoes-importantes {
+        height: 60vh;
+    }
+
+    .caixa-com-as-redes-sociais {
+        margin-top: 2em;
+    }
 }
